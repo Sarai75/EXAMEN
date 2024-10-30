@@ -11,3 +11,17 @@ C:\Users\dulce\OneDrive\Documentos\Proyecto\EXAMEN\Proyecto\obj\Debug\Proyecto.I
 C:\Users\dulce\OneDrive\Documentos\Proyecto\EXAMEN\Proyecto\obj\Debug\Proyecto.Info_Humanidades.resources
 C:\Users\dulce\OneDrive\Documentos\Proyecto\EXAMEN\Proyecto\obj\Debug\Proyecto.Info_Ingles.resources
 C:\Users\dulce\OneDrive\Documentos\Proyecto\EXAMEN\Proyecto\obj\Debug\Proyecto.Info_Matematicas.resources
+C:\Users\CC2_PC17\EXAMEN\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\CC2_PC17\EXAMEN\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\CC2_PC17\EXAMEN\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\CC2_PC17\EXAMEN\Proyecto\obj\Debug\Proyecto.csprojResolveAssemblyReference.cache
+C:\Users\CC2_PC17\EXAMEN\Proyecto\obj\Debug\Proyecto.Info_Ecologia.resources
+C:\Users\CC2_PC17\EXAMEN\Proyecto\obj\Debug\Proyecto.Info_Fisica.resources
+C:\Users\CC2_PC17\EXAMEN\Proyecto\obj\Debug\Proyecto.Info_Humanidades.resources
+C:\Users\CC2_PC17\EXAMEN\Proyecto\obj\Debug\Proyecto.Info_Ingles.resources
+C:\Users\CC2_PC17\EXAMEN\Proyecto\obj\Debug\Proyecto.Info_Matematicas.resources
+C:\Users\CC2_PC17\EXAMEN\Proyecto\obj\Debug\Proyecto.Info_Menu.resources
+C:\Users\CC2_PC17\EXAMEN\Proyecto\obj\Debug\Proyecto.MainForm.resources
+C:\Users\CC2_PC17\EXAMEN\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.Cache
+C:\Users\CC2_PC17\EXAMEN\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\CC2_PC17\EXAMEN\Proyecto\obj\Debug\Proyecto.pdb

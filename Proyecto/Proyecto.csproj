@@ -50,6 +50,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="humanidades.cs" />
+    <Compile Include="humanidades.Designer.cs">
+      <DependentUpon>humanidades.cs</DependentUpon>
+    </Compile>
     <Compile Include="Info Ecologia.cs" />
     <Compile Include="Info Ecologia.Designer.cs">
       <DependentUpon>Info Ecologia.cs</DependentUpon>

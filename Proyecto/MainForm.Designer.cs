@@ -55,39 +55,43 @@ namespace Proyecto
 			// 
 			this.comboBox1.FormattingEnabled = true;
 			this.comboBox1.Items.AddRange(new object[] {
-			"Salida"});
-			this.comboBox1.Location = new System.Drawing.Point(41, 18);
+									"Salida"});
+			this.comboBox1.Location = new System.Drawing.Point(31, 15);
+			this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
 			this.comboBox1.Name = "comboBox1";
-			this.comboBox1.Size = new System.Drawing.Size(146, 24);
+			this.comboBox1.Size = new System.Drawing.Size(110, 21);
 			this.comboBox1.TabIndex = 1;
 			// 
 			// comboBox2
 			// 
 			this.comboBox2.FormattingEnabled = true;
 			this.comboBox2.Items.AddRange(new object[] {
-			"Matematicas",
-			"Ingles",
-			"Fisica",
-			"Ecosistemas",
-			"Humanidades"});
-			this.comboBox2.Location = new System.Drawing.Point(220, 18);
+									"Matematicas",
+									"Ingles",
+									"Fisica",
+									"Ecosistemas",
+									"Humanidades"});
+			this.comboBox2.Location = new System.Drawing.Point(165, 15);
+			this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
 			this.comboBox2.Name = "comboBox2";
-			this.comboBox2.Size = new System.Drawing.Size(154, 24);
+			this.comboBox2.Size = new System.Drawing.Size(116, 21);
 			this.comboBox2.TabIndex = 2;
+			this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.ComboBox2SelectedIndexChanged);
 			// 
 			// comboBox3
 			// 
 			this.comboBox3.FormattingEnabled = true;
 			this.comboBox3.Items.AddRange(new object[] {
-			"Materia Matematicas",
-			"Materia Ingles",
-			"Materia Fisica",
-			"Materia Ecosistemas",
-			"Materia Humanidades",
-			"Sobre Menu"});
-			this.comboBox3.Location = new System.Drawing.Point(423, 18);
+									"Materia Matematicas",
+									"Materia Ingles",
+									"Materia Fisica",
+									"Materia Ecosistemas",
+									"Materia Humanidades",
+									"Sobre Menu"});
+			this.comboBox3.Location = new System.Drawing.Point(317, 15);
+			this.comboBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
 			this.comboBox3.Name = "comboBox3";
-			this.comboBox3.Size = new System.Drawing.Size(116, 24);
+			this.comboBox3.Size = new System.Drawing.Size(88, 21);
 			this.comboBox3.TabIndex = 3;
 			this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.ComboBox3SelectedIndexChanged);
 			// 
@@ -95,9 +99,10 @@ namespace Proyecto
 			// 
 			this.label2.Font = new System.Drawing.Font("Castellar", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
-			this.label2.Location = new System.Drawing.Point(411, 18);
+			this.label2.Location = new System.Drawing.Point(308, 15);
+			this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(108, 24);
+			this.label2.Size = new System.Drawing.Size(81, 20);
 			this.label2.TabIndex = 4;
 			this.label2.Text = "ABOUT";
 			// 
@@ -105,9 +110,10 @@ namespace Proyecto
 			// 
 			this.label1.Font = new System.Drawing.Font("Castellar", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
-			this.label1.Location = new System.Drawing.Point(220, 18);
+			this.label1.Location = new System.Drawing.Point(165, 15);
+			this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(131, 26);
+			this.label1.Size = new System.Drawing.Size(98, 21);
 			this.label1.TabIndex = 5;
 			this.label1.Text = "MATERIAS";
 			// 
@@ -115,28 +121,29 @@ namespace Proyecto
 			// 
 			this.label3.Font = new System.Drawing.Font("Castellar", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label3.Image = ((System.Drawing.Image)(resources.GetObject("label3.Image")));
-			this.label3.Location = new System.Drawing.Point(30, 18);
+			this.label3.Location = new System.Drawing.Point(22, 15);
+			this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(138, 26);
+			this.label3.Size = new System.Drawing.Size(104, 21);
 			this.label3.TabIndex = 6;
 			this.label3.Text = "ARCHIVO";
 			// 
 			// MainForm
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-			this.ClientSize = new System.Drawing.Size(589, 411);
+			this.ClientSize = new System.Drawing.Size(442, 334);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.comboBox3);
 			this.Controls.Add(this.comboBox2);
 			this.Controls.Add(this.comboBox1);
+			this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
 			this.Name = "MainForm";
 			this.Text = "Proyecto";
 			this.ResumeLayout(false);
-
 		}
 	}
 }

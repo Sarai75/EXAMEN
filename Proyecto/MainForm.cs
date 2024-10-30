@@ -63,6 +63,17 @@ namespace Proyecto
 				Info_Menu Form7= new Info_Menu();
 				Form7.Show();
 			}
+			
+		}
+		
+		void ComboBox2SelectedIndexChanged(object sender, EventArgs e)
+		{
+			string selectedItem = comboBox2.SelectedItem.ToString();
+			if(selectedItem == "Humanidades")
+			{
+				humanidades From8=new humanidades();
+				From8.Show();
+			}
 		}
 	}
 }
