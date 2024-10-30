@@ -1,0 +1,13 @@
+C:\Users\dulce\OneDrive\Documentos\Proyecto\EXAMEN\Proyecto\obj\Debug\Proyecto.csprojResolveAssemblyReference.cache
+C:\Users\dulce\OneDrive\Documentos\Proyecto\EXAMEN\Proyecto\obj\Debug\Proyecto.MainForm.resources
+C:\Users\dulce\OneDrive\Documentos\Proyecto\EXAMEN\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.Cache
+C:\Users\dulce\OneDrive\Documentos\Proyecto\EXAMEN\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\dulce\OneDrive\Documentos\Proyecto\EXAMEN\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\dulce\OneDrive\Documentos\Proyecto\EXAMEN\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\dulce\OneDrive\Documentos\Proyecto\EXAMEN\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\dulce\OneDrive\Documentos\Proyecto\EXAMEN\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\dulce\OneDrive\Documentos\Proyecto\EXAMEN\Proyecto\obj\Debug\Proyecto.Info_Ecologia.resources
+C:\Users\dulce\OneDrive\Documentos\Proyecto\EXAMEN\Proyecto\obj\Debug\Proyecto.Info_Fisica.resources
+C:\Users\dulce\OneDrive\Documentos\Proyecto\EXAMEN\Proyecto\obj\Debug\Proyecto.Info_Humanidades.resources
+C:\Users\dulce\OneDrive\Documentos\Proyecto\EXAMEN\Proyecto\obj\Debug\Proyecto.Info_Ingles.resources
+C:\Users\dulce\OneDrive\Documentos\Proyecto\EXAMEN\Proyecto\obj\Debug\Proyecto.Info_Matematicas.resources
