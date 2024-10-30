@@ -1,0 +1,7 @@
+C:\Users\CC2-PC20\Downloads\ingles\ingles\obj\Debug\ingles.csprojResolveAssemblyReference.cache
+C:\Users\CC2-PC20\Downloads\ingles\ingles\obj\Debug\ingles.MainForm.resources
+C:\Users\CC2-PC20\Downloads\ingles\ingles\obj\Debug\ingles.csproj.GenerateResource.Cache
+C:\Users\CC2-PC20\Downloads\ingles\ingles\bin\Debug\ingles.exe
+C:\Users\CC2-PC20\Downloads\ingles\ingles\bin\Debug\ingles.pdb
+C:\Users\CC2-PC20\Downloads\ingles\ingles\obj\Debug\ingles.exe
+C:\Users\CC2-PC20\Downloads\ingles\ingles\obj\Debug\ingles.pdb
