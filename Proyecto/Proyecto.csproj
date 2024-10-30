@@ -50,6 +50,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Info Ecologia.cs" />
+    <Compile Include="Info Ecologia.Designer.cs">
+      <DependentUpon>Info Ecologia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info Fisica.cs" />
+    <Compile Include="Info Fisica.Designer.cs">
+      <DependentUpon>Info Fisica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info Humanidades.cs" />
+    <Compile Include="Info Humanidades.Designer.cs">
+      <DependentUpon>Info Humanidades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info Ingles.cs" />
+    <Compile Include="Info Ingles.Designer.cs">
+      <DependentUpon>Info Ingles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info Matematicas.cs" />
+    <Compile Include="Info Matematicas.Designer.cs">
+      <DependentUpon>Info Matematicas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info Menu.cs" />
+    <Compile Include="Info Menu.Designer.cs">
+      <DependentUpon>Info Menu.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs" />
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -61,6 +85,24 @@
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Info Ecologia.resx">
+      <DependentUpon>Info Ecologia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info Fisica.resx">
+      <DependentUpon>Info Fisica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info Humanidades.resx">
+      <DependentUpon>Info Humanidades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info Ingles.resx">
+      <DependentUpon>Info Ingles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info Matematicas.resx">
+      <DependentUpon>Info Matematicas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info Menu.resx">
+      <DependentUpon>Info Menu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>

@@ -85,7 +85,7 @@ namespace Proyecto
 			"Materia Ecosistemas",
 			"Materia Humanidades",
 			"Sobre Menu"});
-			this.comboBox3.Location = new System.Drawing.Point(413, 18);
+			this.comboBox3.Location = new System.Drawing.Point(423, 18);
 			this.comboBox3.Name = "comboBox3";
 			this.comboBox3.Size = new System.Drawing.Size(116, 24);
 			this.comboBox3.TabIndex = 3;
@@ -95,9 +95,9 @@ namespace Proyecto
 			// 
 			this.label2.Font = new System.Drawing.Font("Castellar", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
-			this.label2.Location = new System.Drawing.Point(413, 18);
+			this.label2.Location = new System.Drawing.Point(411, 18);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(96, 24);
+			this.label2.Size = new System.Drawing.Size(108, 24);
 			this.label2.TabIndex = 4;
 			this.label2.Text = "ABOUT";
 			// 
@@ -117,7 +117,7 @@ namespace Proyecto
 			this.label3.Image = ((System.Drawing.Image)(resources.GetObject("label3.Image")));
 			this.label3.Location = new System.Drawing.Point(30, 18);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(131, 26);
+			this.label3.Size = new System.Drawing.Size(138, 26);
 			this.label3.TabIndex = 6;
 			this.label3.Text = "ARCHIVO";
 			// 

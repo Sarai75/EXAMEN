@@ -31,33 +31,38 @@ namespace Proyecto
 		}
 		void ComboBox3SelectedIndexChanged(object sender, EventArgs e)
 		{
-    string selectedItem = comboBox3.SelectedItem.ToString();
+			string selectedItem = comboBox3.SelectedItem.ToString();
 
-    if (selectedItem == "Materia Matematicas")
-    {
-       Matematicas Form2= new Matematicas();
-        Form2.Show();
-    }
-    else if(selectedItem == "Materia Ingles")
-    {
-        Ingles Form3= new Ingles();
-        Form3.Show();
-    }
-    else if(selectedItem == "Materia Fisica")
-    {
-        Fisica Form4= new Fisica();
-        Form4.Show();
-    }
-    else if(selectedItem == "Materia Ecologia")
-    {
-        Ecologia Form5= new Ecologia();
-        Form5.Show();
-    }
-    else if(selectedItem == "Materia Ingles")
-    {
-        Humanidades Form6= new Humanidades();
-        Form6.Show();
-    }
+			if (selectedItem == "Materia Matematicas")
+			{
+				Info_Matematicas Form2=new Info_Matematicas();
+				Form2.Show();
+			}
+			else if(selectedItem == "Materia Ingles")
+			{
+				Info_Ingles Form3= new Info_Ingles();
+				Form3.Show();
+			}
+			else if(selectedItem == "Materia Fisica")
+			{
+				Info_Fisica Form4= new Info_Fisica();
+				Form4.Show();
+			}
+			else if(selectedItem == "Materia Ecosistemas")
+			{
+				Info_Ecologia Form5= new  Info_Ecologia();
+				Form5.Show();
+			}
+			else if(selectedItem == "Materia Humanidades")
+			{
+				Info_Humanidades Form6= new Info_Humanidades();
+				Form6.Show();
+			}
+			else if(selectedItem == "Sobre Menu")
+			{
+				Info_Menu Form7= new Info_Menu();
+				Form7.Show();
+			}
 		}
 	}
 }
