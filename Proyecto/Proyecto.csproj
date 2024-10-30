@@ -89,6 +89,9 @@
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="humanidades.resx">
+      <DependentUpon>humanidades.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Info Ecologia.resx">
       <DependentUpon>Info Ecologia.cs</DependentUpon>
     </EmbeddedResource>

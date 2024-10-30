@@ -25,3 +25,4 @@ C:\Users\CC2_PC17\EXAMEN\Proyecto\obj\Debug\Proyecto.MainForm.resources
 C:\Users\CC2_PC17\EXAMEN\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.Cache
 C:\Users\CC2_PC17\EXAMEN\Proyecto\obj\Debug\Proyecto.exe
 C:\Users\CC2_PC17\EXAMEN\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\CC2_PC17\EXAMEN\Proyecto\obj\Debug\Proyecto.humanidades.resources

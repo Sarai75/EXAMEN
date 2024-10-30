@@ -28,5 +28,6 @@ namespace Proyecto
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
 	}
 }
