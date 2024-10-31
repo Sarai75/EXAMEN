@@ -73,6 +73,13 @@ namespace Proyecto
 				Humanidades Form8=new Humanidades();
 				Form8.Show();
 			}
+			
+			string selectItem = comboBox2.SelectedItem.ToString();
+			if (selectedItem == "Ecosistemas")
+			{
+				ecologia From9=new ecologia();
+				From9.Show();
+			}
 		}
 	}
 }
