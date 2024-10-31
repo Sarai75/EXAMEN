@@ -74,11 +74,16 @@ namespace Proyecto
 				Form8.Show();
 			}
 			
-			string selectItem = comboBox2.SelectedItem.ToString();
 			if (selectedItem == "Ecosistemas")
 			{
 				ecologia From9=new ecologia();
 				From9.Show();
+			}
+			
+			if (selectedItem == "Ingles")
+			{
+				ingles From10=new ingles();
+				From10.Show();
 			}
 		}
 	}
