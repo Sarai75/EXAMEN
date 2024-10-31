@@ -110,7 +110,6 @@ namespace Proyecto
 			this.label6.Size = new System.Drawing.Size(784, 210);
 			this.label6.TabIndex = 6;
 			this.label6.Text = resources.GetString("label6.Text");
-			this.label6.Click += new System.EventHandler(this.Label6Click);
 			// 
 			// ecologia
 			// 
