@@ -67,10 +67,10 @@ namespace Proyecto
 		
 		void ComboBox2SelectedIndexChanged(object sender, EventArgs e)
 		{
-			string selectedItem = comboBox2.SelectedItem.ToString();
-			if (selectedItem == "Humanidades")
+			string selectedItem =comboBox2.SelectedItem.ToString();
+			if(selectedItem== "Matematicas")
 			{
-				Humanidades Form8=new Humanidades();
+				Matematicas Form8=new Matematicas();
 				Form8.Show();
 			}
 		}
