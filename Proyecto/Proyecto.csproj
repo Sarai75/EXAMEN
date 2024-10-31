@@ -50,6 +50,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Humanidades.cs" />
+    <Compile Include="Humanidades.Designer.cs">
+      <DependentUpon>Humanidades.cs</DependentUpon>
+    </Compile>
     <Compile Include="Info Ecologia.cs" />
     <Compile Include="Info Ecologia.Designer.cs">
       <DependentUpon>Info Ecologia.cs</DependentUpon>
@@ -85,6 +89,9 @@
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Humanidades.resx">
+      <DependentUpon>Humanidades.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Info Ecologia.resx">
       <DependentUpon>Info Ecologia.cs</DependentUpon>
     </EmbeddedResource>
