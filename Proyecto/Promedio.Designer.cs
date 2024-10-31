@@ -145,7 +145,7 @@ namespace Proyecto
 			// LblResultado
 			// 
 			this.LblResultado.Image = ((System.Drawing.Image)(resources.GetObject("LblResultado.Image")));
-			this.LblResultado.Location = new System.Drawing.Point(273, 134);
+			this.LblResultado.Location = new System.Drawing.Point(269, 120);
 			this.LblResultado.Name = "LblResultado";
 			this.LblResultado.Size = new System.Drawing.Size(100, 23);
 			this.LblResultado.TabIndex = 11;

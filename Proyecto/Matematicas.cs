@@ -71,5 +71,17 @@ namespace Proyecto
 			Aprobados aprobados= new Aprobados();
 			aprobados.Show();
 		}
+		
+		void Button8Click(object sender, EventArgs e)
+		{
+			Desviacion desviacion = new Desviacion();
+			desviacion.Show();
+		}
+		
+		void Button9Click(object sender, EventArgs e)
+		{
+			PromApro promapro= new PromApro();
+			promapro.Show();
+		}
 	}
 }

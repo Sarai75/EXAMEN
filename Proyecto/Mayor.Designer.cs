@@ -36,6 +36,7 @@ namespace Proyecto
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Mayor));
 			this.BtnCalcular = new System.Windows.Forms.Button();
 			this.label1 = new System.Windows.Forms.Label();
 			this.textBox1 = new System.Windows.Forms.TextBox();
@@ -44,7 +45,8 @@ namespace Proyecto
 			// 
 			// BtnCalcular
 			// 
-			this.BtnCalcular.Location = new System.Drawing.Point(81, 100);
+			this.BtnCalcular.Image = ((System.Drawing.Image)(resources.GetObject("BtnCalcular.Image")));
+			this.BtnCalcular.Location = new System.Drawing.Point(115, 108);
 			this.BtnCalcular.Name = "BtnCalcular";
 			this.BtnCalcular.Size = new System.Drawing.Size(117, 27);
 			this.BtnCalcular.TabIndex = 0;
@@ -54,7 +56,8 @@ namespace Proyecto
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(236, 68);
+			this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
+			this.label1.Location = new System.Drawing.Point(272, 63);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(100, 23);
 			this.label1.TabIndex = 1;
@@ -64,14 +67,16 @@ namespace Proyecto
 			// 
 			this.textBox1.Location = new System.Drawing.Point(64, 35);
 			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(152, 20);
+			this.textBox1.Size = new System.Drawing.Size(187, 20);
 			this.textBox1.TabIndex = 2;
 			// 
 			// label2
 			// 
-			this.label2.Location = new System.Drawing.Point(64, 9);
+			this.label2.Font = new System.Drawing.Font("Castellar", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
+			this.label2.Location = new System.Drawing.Point(36, 9);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(168, 23);
+			this.label2.Size = new System.Drawing.Size(272, 23);
 			this.label2.TabIndex = 3;
 			this.label2.Text = "INTRODUSCA 5 NUMEROS";
 			// 
@@ -79,6 +84,7 @@ namespace Proyecto
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.ClientSize = new System.Drawing.Size(348, 183);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.textBox1);

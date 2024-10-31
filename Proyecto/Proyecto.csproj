@@ -54,6 +54,10 @@
     <Compile Include="Aprobados.Designer.cs">
       <DependentUpon>Aprobados.cs</DependentUpon>
     </Compile>
+    <Compile Include="Desviacion.cs" />
+    <Compile Include="Desviacion.Designer.cs">
+      <DependentUpon>Desviacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Info Ecologia.cs" />
     <Compile Include="Info Ecologia.Designer.cs">
       <DependentUpon>Info Ecologia.cs</DependentUpon>
@@ -103,6 +107,10 @@
       <DependentUpon>Moda.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="PromApro.cs" />
+    <Compile Include="PromApro.Designer.cs">
+      <DependentUpon>PromApro.cs</DependentUpon>
+    </Compile>
     <Compile Include="Promedio.cs" />
     <Compile Include="Promedio.Designer.cs">
       <DependentUpon>Promedio.cs</DependentUpon>
@@ -119,6 +127,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Aprobados.resx">
       <DependentUpon>Aprobados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desviacion.resx">
+      <DependentUpon>Desviacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Info Ecologia.resx">
       <DependentUpon>Info Ecologia.cs</DependentUpon>
@@ -155,6 +166,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Moda.resx">
       <DependentUpon>Moda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PromApro.resx">
+      <DependentUpon>PromApro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Promedio.resx">
       <DependentUpon>Promedio.cs</DependentUpon>

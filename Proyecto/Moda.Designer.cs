@@ -72,11 +72,11 @@ namespace Proyecto
 			// 
 			// label2
 			// 
-			this.label2.Font = new System.Drawing.Font("Castellar", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.Font = new System.Drawing.Font("Castellar", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
-			this.label2.Location = new System.Drawing.Point(59, 9);
+			this.label2.Location = new System.Drawing.Point(48, 9);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(190, 23);
+			this.label2.Size = new System.Drawing.Size(213, 23);
 			this.label2.TabIndex = 3;
 			this.label2.Text = "INGRESE 5 NUMEROS";
 			// 

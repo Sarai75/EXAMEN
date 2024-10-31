@@ -36,6 +36,7 @@ namespace Proyecto
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reprobados));
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
@@ -53,14 +54,17 @@ namespace Proyecto
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(50, 9);
+			this.label1.Font = new System.Drawing.Font("Castellar", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
+			this.label1.Location = new System.Drawing.Point(12, 9);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(183, 23);
+			this.label1.Size = new System.Drawing.Size(303, 23);
 			this.label1.TabIndex = 0;
 			this.label1.Text = "INGRESE LAS CALIFICACIONES";
 			// 
 			// label2
 			// 
+			this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
 			this.label2.Location = new System.Drawing.Point(12, 46);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(100, 23);
@@ -69,6 +73,7 @@ namespace Proyecto
 			// 
 			// label3
 			// 
+			this.label3.Image = ((System.Drawing.Image)(resources.GetObject("label3.Image")));
 			this.label3.Location = new System.Drawing.Point(12, 94);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(100, 23);
@@ -77,6 +82,7 @@ namespace Proyecto
 			// 
 			// label4
 			// 
+			this.label4.Image = ((System.Drawing.Image)(resources.GetObject("label4.Image")));
 			this.label4.Location = new System.Drawing.Point(12, 132);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(100, 23);
@@ -85,6 +91,7 @@ namespace Proyecto
 			// 
 			// label5
 			// 
+			this.label5.Image = ((System.Drawing.Image)(resources.GetObject("label5.Image")));
 			this.label5.Location = new System.Drawing.Point(12, 182);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(100, 23);
@@ -93,6 +100,7 @@ namespace Proyecto
 			// 
 			// label6
 			// 
+			this.label6.Image = ((System.Drawing.Image)(resources.GetObject("label6.Image")));
 			this.label6.Location = new System.Drawing.Point(12, 229);
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(100, 23);
@@ -101,6 +109,7 @@ namespace Proyecto
 			// 
 			// BtnCal
 			// 
+			this.BtnCal.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnCal.BackgroundImage")));
 			this.BtnCal.Location = new System.Drawing.Point(98, 270);
 			this.BtnCal.Name = "BtnCal";
 			this.BtnCal.Size = new System.Drawing.Size(75, 23);
@@ -146,6 +155,7 @@ namespace Proyecto
 			// 
 			// label7
 			// 
+			this.label7.Image = ((System.Drawing.Image)(resources.GetObject("label7.Image")));
 			this.label7.Location = new System.Drawing.Point(253, 135);
 			this.label7.Name = "label7";
 			this.label7.Size = new System.Drawing.Size(100, 23);
@@ -156,6 +166,7 @@ namespace Proyecto
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.ClientSize = new System.Drawing.Size(348, 305);
 			this.Controls.Add(this.label7);
 			this.Controls.Add(this.TxtHum);

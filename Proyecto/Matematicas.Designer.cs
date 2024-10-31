@@ -134,6 +134,7 @@ namespace Proyecto
 			this.button8.TabIndex = 7;
 			this.button8.Text = "Desviación";
 			this.button8.UseVisualStyleBackColor = true;
+			this.button8.Click += new System.EventHandler(this.Button8Click);
 			// 
 			// button9
 			// 
@@ -144,6 +145,7 @@ namespace Proyecto
 			this.button9.TabIndex = 8;
 			this.button9.Text = "Prom.Aprobados";
 			this.button9.UseVisualStyleBackColor = true;
+			this.button9.Click += new System.EventHandler(this.Button9Click);
 			// 
 			// Matematicas
 			// 
