@@ -57,7 +57,7 @@ namespace Proyecto
 			this.comboBox1.Items.AddRange(new object[] {
 									"Salida"});
 			this.comboBox1.Location = new System.Drawing.Point(31, 15);
-			this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
 			this.comboBox1.Name = "comboBox1";
 			this.comboBox1.Size = new System.Drawing.Size(110, 21);
 			this.comboBox1.TabIndex = 1;
@@ -72,7 +72,7 @@ namespace Proyecto
 									"Ecosistemas",
 									"Humanidades"});
 			this.comboBox2.Location = new System.Drawing.Point(165, 15);
-			this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
 			this.comboBox2.Name = "comboBox2";
 			this.comboBox2.Size = new System.Drawing.Size(116, 21);
 			this.comboBox2.TabIndex = 2;
@@ -89,7 +89,7 @@ namespace Proyecto
 									"Materia Humanidades",
 									"Sobre Menu"});
 			this.comboBox3.Location = new System.Drawing.Point(317, 15);
-			this.comboBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.comboBox3.Margin = new System.Windows.Forms.Padding(2);
 			this.comboBox3.Name = "comboBox3";
 			this.comboBox3.Size = new System.Drawing.Size(88, 21);
 			this.comboBox3.TabIndex = 3;
@@ -133,14 +133,14 @@ namespace Proyecto
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-			this.ClientSize = new System.Drawing.Size(442, 334);
+			this.ClientSize = new System.Drawing.Size(442, 137);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.comboBox3);
 			this.Controls.Add(this.comboBox2);
 			this.Controls.Add(this.comboBox1);
-			this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.Margin = new System.Windows.Forms.Padding(2);
 			this.Name = "MainForm";
 			this.Text = "Proyecto";
 			this.ResumeLayout(false);
