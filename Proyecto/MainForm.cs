@@ -64,5 +64,15 @@ namespace Proyecto
 				Form7.Show();
 			}
 		}
+		
+		void ComboBox2SelectedIndexChanged(object sender, EventArgs e)
+		{
+			string selectedItem = comboBox2.SelectedItem.ToString();
+			if (selectedItem == "Humanidades")
+			{
+				Humanidades Form8=new Humanidades();
+				Form8.Show();
+			}
+		}
 	}
 }
