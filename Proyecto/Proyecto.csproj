@@ -54,6 +54,10 @@
     <Compile Include="Humanidades.Designer.cs">
       <DependentUpon>Humanidades.cs</DependentUpon>
     </Compile>
+    <Compile Include="humanidadesms.cs" />
+    <Compile Include="humanidadesms.Designer.cs">
+      <DependentUpon>humanidadesms.cs</DependentUpon>
+    </Compile>
     <Compile Include="Info Ecologia.cs" />
     <Compile Include="Info Ecologia.Designer.cs">
       <DependentUpon>Info Ecologia.cs</DependentUpon>
@@ -91,6 +95,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Humanidades.resx">
       <DependentUpon>Humanidades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="humanidadesms.resx">
+      <DependentUpon>humanidadesms.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Info Ecologia.resx">
       <DependentUpon>Info Ecologia.cs</DependentUpon>
