@@ -26,3 +26,4 @@ C:\Users\J Sarai\EXAMEN\Proyecto\bin\Debug\Proyecto.exe
 C:\Users\J Sarai\EXAMEN\Proyecto\bin\Debug\Proyecto.pdb
 C:\Users\J Sarai\EXAMEN\Proyecto\obj\Debug\Proyecto.pdb
 C:\Users\J Sarai\EXAMEN\Proyecto\obj\Debug\Proyecto.Humanidades.resources
+C:\Users\J Sarai\EXAMEN\Proyecto\obj\Debug\Proyecto.humanidadesms.resources
