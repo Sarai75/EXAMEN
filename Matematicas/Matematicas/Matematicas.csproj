@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
   <PropertyGroup>
-    <ProjectGuid>{728BC9CC-11A3-4666-B71E-07E6727862F4}</ProjectGuid>
-    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{816C7574-9E2A-4464-A409-11F5BA2890F1}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Proyecto</RootNamespace>
-    <AssemblyName>Proyecto</AssemblyName>
+    <RootNamespace>Matematicas</RootNamespace>
+    <AssemblyName>Matematicas</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <AppDesignerFolder>Properties</AppDesignerFolder>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
@@ -31,9 +31,6 @@
     <DefineConstants>TRACE</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CSharp">
-      <RequiredTargetFramework>4.0</RequiredTargetFramework>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -54,37 +51,13 @@
     <Compile Include="Aprobados.Designer.cs">
       <DependentUpon>Aprobados.cs</DependentUpon>
     </Compile>
-    <Compile Include="Info Ecologia.cs" />
-    <Compile Include="Info Ecologia.Designer.cs">
-      <DependentUpon>Info Ecologia.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Info Fisica.cs" />
-    <Compile Include="Info Fisica.Designer.cs">
-      <DependentUpon>Info Fisica.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Info Humanidades.cs" />
-    <Compile Include="Info Humanidades.Designer.cs">
-      <DependentUpon>Info Humanidades.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Info Ingles.cs" />
-    <Compile Include="Info Ingles.Designer.cs">
-      <DependentUpon>Info Ingles.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Info Matematicas.cs" />
-    <Compile Include="Info Matematicas.Designer.cs">
-      <DependentUpon>Info Matematicas.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Info Menu.cs" />
-    <Compile Include="Info Menu.Designer.cs">
-      <DependentUpon>Info Menu.cs</DependentUpon>
+    <Compile Include="Desviacion.cs" />
+    <Compile Include="Desviacion.Designer.cs">
+      <DependentUpon>Desviacion.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs" />
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Matematicas.cs" />
-    <Compile Include="Matematicas.Designer.cs">
-      <DependentUpon>Matematicas.cs</DependentUpon>
     </Compile>
     <Compile Include="Mayor.cs" />
     <Compile Include="Mayor.Designer.cs">
@@ -103,6 +76,10 @@
       <DependentUpon>Moda.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="PromApro.cs" />
+    <Compile Include="PromApro.Designer.cs">
+      <DependentUpon>PromApro.cs</DependentUpon>
+    </Compile>
     <Compile Include="Promedio.cs" />
     <Compile Include="Promedio.Designer.cs">
       <DependentUpon>Promedio.cs</DependentUpon>
@@ -114,35 +91,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Aprobados.resx">
       <DependentUpon>Aprobados.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Info Ecologia.resx">
-      <DependentUpon>Info Ecologia.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Info Fisica.resx">
-      <DependentUpon>Info Fisica.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Info Humanidades.resx">
-      <DependentUpon>Info Humanidades.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Info Ingles.resx">
-      <DependentUpon>Info Ingles.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Info Matematicas.resx">
-      <DependentUpon>Info Matematicas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Info Menu.resx">
-      <DependentUpon>Info Menu.cs</DependentUpon>
+    <EmbeddedResource Include="Desviacion.resx">
+      <DependentUpon>Desviacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Matematicas.resx">
-      <DependentUpon>Matematicas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Mayor.resx">
       <DependentUpon>Mayor.cs</DependentUpon>
@@ -155,6 +111,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Moda.resx">
       <DependentUpon>Moda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PromApro.resx">
+      <DependentUpon>PromApro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Promedio.resx">
       <DependentUpon>Promedio.cs</DependentUpon>

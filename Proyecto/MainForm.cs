@@ -64,5 +64,15 @@ namespace Proyecto
 				Form7.Show();
 			}
 		}
+		
+		void ComboBox2SelectedIndexChanged(object sender, EventArgs e)
+		{
+			string selectedItem =comboBox2.SelectedItem.ToString();
+			if(selectedItem== "Matematicas")
+			{
+				Matematicas Form8=new Matematicas();
+				Form8.Show();
+			}
+		}
 	}
 }

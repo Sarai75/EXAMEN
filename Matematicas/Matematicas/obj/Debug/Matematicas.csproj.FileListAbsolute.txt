@@ -1,0 +1,16 @@
+C:\Users\marga\OneDrive\Documentos\SharpDevelop Projects\Matematicas\Matematicas\bin\Debug\Matematicas.exe
+C:\Users\marga\OneDrive\Documentos\SharpDevelop Projects\Matematicas\Matematicas\bin\Debug\Matematicas.pdb
+C:\Users\marga\OneDrive\Documentos\SharpDevelop Projects\Matematicas\Matematicas\obj\Debug\Matematicas.csprojResolveAssemblyReference.cache
+C:\Users\marga\OneDrive\Documentos\SharpDevelop Projects\Matematicas\Matematicas\obj\Debug\Matematicas.MainForm.resources
+C:\Users\marga\OneDrive\Documentos\SharpDevelop Projects\Matematicas\Matematicas\obj\Debug\Matematicas.csproj.GenerateResource.Cache
+C:\Users\marga\OneDrive\Documentos\SharpDevelop Projects\Matematicas\Matematicas\obj\Debug\Matematicas.exe
+C:\Users\marga\OneDrive\Documentos\SharpDevelop Projects\Matematicas\Matematicas\obj\Debug\Matematicas.pdb
+C:\Users\marga\OneDrive\Documentos\SharpDevelop Projects\Matematicas\Matematicas\obj\Debug\Matematicas.Aprobados.resources
+C:\Users\marga\OneDrive\Documentos\SharpDevelop Projects\Matematicas\Matematicas\obj\Debug\Matematicas.Desviacion.resources
+C:\Users\marga\OneDrive\Documentos\SharpDevelop Projects\Matematicas\Matematicas\obj\Debug\Matematicas.Mayor.resources
+C:\Users\marga\OneDrive\Documentos\SharpDevelop Projects\Matematicas\Matematicas\obj\Debug\Matematicas.Media.resources
+C:\Users\marga\OneDrive\Documentos\SharpDevelop Projects\Matematicas\Matematicas\obj\Debug\Matematicas.Menor.resources
+C:\Users\marga\OneDrive\Documentos\SharpDevelop Projects\Matematicas\Matematicas\obj\Debug\Matematicas.Moda.resources
+C:\Users\marga\OneDrive\Documentos\SharpDevelop Projects\Matematicas\Matematicas\obj\Debug\Matematicas.PromApro.resources
+C:\Users\marga\OneDrive\Documentos\SharpDevelop Projects\Matematicas\Matematicas\obj\Debug\Matematicas.Promedio.resources
+C:\Users\marga\OneDrive\Documentos\SharpDevelop Projects\Matematicas\Matematicas\obj\Debug\Matematicas.Reprobados.resources
