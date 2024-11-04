@@ -47,7 +47,9 @@ namespace Proyecto
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(380, 337);
 			this.label1.TabIndex = 1;
-			this.label1.Text = "Elaborado Por\r\n\r\nFecha \r\n31 de Octubre del 2024\r\n";
+			this.label1.Text = "Elaborado Por\r\nDulce Maria Diego Chacon\r\n\r\nTercero de programación\r\n\r\nFecha \r\n31 " +
+	"de Octubre del 2024\r\n\r\nMateria: Medologías ágiles\r\n\r\nDocente: Luis Germán Gutiér" +
+	"rez Torres";
 			// 
 			// Info_Fisica
 			// 
