@@ -58,6 +58,10 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="nads.cs" />
+    <Compile Include="nads.Designer.cs">
+      <DependentUpon>nads.cs</DependentUpon>
+    </Compile>
     <Compile Include="problemas.cs" />
     <Compile Include="problemas.Designer.cs">
       <DependentUpon>problemas.cs</DependentUpon>
