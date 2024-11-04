@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{816C7574-9E2A-4464-A409-11F5BA2890F1}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Matematicas</RootNamespace>
+    <AssemblyName>Matematicas</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aprobados.cs" />
+    <Compile Include="Aprobados.Designer.cs">
+      <DependentUpon>Aprobados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Desviacion.cs" />
+    <Compile Include="Desviacion.Designer.cs">
+      <DependentUpon>Desviacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs" />
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mayor.cs" />
+    <Compile Include="Mayor.Designer.cs">
+      <DependentUpon>Mayor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Media.cs" />
+    <Compile Include="Media.Designer.cs">
+      <DependentUpon>Media.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menor.cs" />
+    <Compile Include="Menor.Designer.cs">
+      <DependentUpon>Menor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Moda.cs" />
+    <Compile Include="Moda.Designer.cs">
+      <DependentUpon>Moda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="PromApro.cs" />
+    <Compile Include="PromApro.Designer.cs">
+      <DependentUpon>PromApro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Promedio.cs" />
+    <Compile Include="Promedio.Designer.cs">
+      <DependentUpon>Promedio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reprobados.cs" />
+    <Compile Include="Reprobados.Designer.cs">
+      <DependentUpon>Reprobados.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Aprobados.resx">
+      <DependentUpon>Aprobados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desviacion.resx">
+      <DependentUpon>Desviacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mayor.resx">
+      <DependentUpon>Mayor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Media.resx">
+      <DependentUpon>Media.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menor.resx">
+      <DependentUpon>Menor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Moda.resx">
+      <DependentUpon>Moda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PromApro.resx">
+      <DependentUpon>PromApro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Promedio.resx">
+      <DependentUpon>Promedio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reprobados.resx">
+      <DependentUpon>Reprobados.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
