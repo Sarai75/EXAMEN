@@ -43,25 +43,26 @@ namespace Proyecto
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(9, 7);
-			this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label1.Location = new System.Drawing.Point(12, 9);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(285, 123);
+			this.label1.Size = new System.Drawing.Size(380, 328);
 			this.label1.TabIndex = 0;
-			this.label1.Text = "Elaborado Por\r\nGuzman Martinez Francisco Emiliano\r\n\r\nFecha \r\n31 de Octubre del 20" +
-			"24\r\n";
+			this.label1.Text = "Elaborado Por\r\nGuzman Martinez Francisco Emiliano\r\n\r\nTercero de Programación\r\n\r\nF" +
+	"echa \r\n31 de Octubre del 2024\r\n\r\nMateria: Medologías ágiles\r\n\r\nDocente: Luis Ger" +
+	"mán Gutiérrez Torres";
 			// 
 			// Info_Ecologia
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-			this.ClientSize = new System.Drawing.Size(400, 178);
+			this.ClientSize = new System.Drawing.Size(533, 449);
 			this.Controls.Add(this.label1);
-			this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.Name = "Info_Ecologia";
 			this.Text = "Info_Ecologia";
 			this.ResumeLayout(false);
+
 		}
 	}
 }
