@@ -43,24 +43,26 @@ namespace Proyecto
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(52, 9);
-			this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+			this.label1.Location = new System.Drawing.Point(12, 9);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(285, 274);
+			this.label1.Size = new System.Drawing.Size(380, 338);
 			this.label1.TabIndex = 1;
-			this.label1.Text = "Elaborado Por\r\nJessica Sarai Morales Alarcón\r\n\r\nFecha \r\n31 de Octubre del 2024\r\n";
+			this.label1.Text = "Elaborado Por\r\nJessica Sarai Morales Alarcón\r\n\r\nTercero de Programación\r\n\r\nFecha " +
+	"\r\n31 de Octubre del 2024\r\n\r\nMateria: Medologías ágiles\r\n\r\nDocente: Luis Germán G" +
+	"utiérrez Torres\r\n";
 			// 
 			// Info_Humanidades
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-			this.ClientSize = new System.Drawing.Size(399, 301);
+			this.ClientSize = new System.Drawing.Size(532, 446);
 			this.Controls.Add(this.label1);
-			this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.Name = "Info_Humanidades";
 			this.Text = "Info_Humanidades";
 			this.ResumeLayout(false);
+
 		}
 	}
 }

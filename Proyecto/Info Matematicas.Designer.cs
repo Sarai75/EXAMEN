@@ -47,7 +47,9 @@ namespace Proyecto
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(380, 337);
 			this.label1.TabIndex = 1;
-			this.label1.Text = "Elaborado Por\r\n\r\nFecha \r\n31 de Octubre del 2024\r\n";
+			this.label1.Text = "Elaborado Por\r\nMariana Margarita Gonzales Zavala\r\n\r\nTercero de Programación\r\n\r\nFe" +
+	"cha \r\n31 de Octubre del 2024\r\nMateria: Medologías ágiles\r\n\r\nDocente: Luis Germán" +
+	" Gutiérrez Torres\r\n";
 			// 
 			// Info_Matematicas
 			// 
