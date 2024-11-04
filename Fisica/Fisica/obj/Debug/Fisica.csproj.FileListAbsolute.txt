@@ -1,0 +1,10 @@
+C:\Users\dulce\OneDrive\Documentos\SharpDevelop Projects\Fisica\Fisica\bin\Debug\Fisica.exe.config
+C:\Users\dulce\OneDrive\Documentos\SharpDevelop Projects\Fisica\Fisica\bin\Debug\Fisica.exe
+C:\Users\dulce\OneDrive\Documentos\SharpDevelop Projects\Fisica\Fisica\bin\Debug\Fisica.pdb
+C:\Users\dulce\OneDrive\Documentos\SharpDevelop Projects\Fisica\Fisica\obj\Debug\Fisica.csprojResolveAssemblyReference.cache
+C:\Users\dulce\OneDrive\Documentos\SharpDevelop Projects\Fisica\Fisica\obj\Debug\Fisica.links.resources
+C:\Users\dulce\OneDrive\Documentos\SharpDevelop Projects\Fisica\Fisica\obj\Debug\Fisica.MainForm.resources
+C:\Users\dulce\OneDrive\Documentos\SharpDevelop Projects\Fisica\Fisica\obj\Debug\Fisica.problemas.resources
+C:\Users\dulce\OneDrive\Documentos\SharpDevelop Projects\Fisica\Fisica\obj\Debug\Fisica.csproj.GenerateResource.Cache
+C:\Users\dulce\OneDrive\Documentos\SharpDevelop Projects\Fisica\Fisica\obj\Debug\Fisica.exe
+C:\Users\dulce\OneDrive\Documentos\SharpDevelop Projects\Fisica\Fisica\obj\Debug\Fisica.pdb
