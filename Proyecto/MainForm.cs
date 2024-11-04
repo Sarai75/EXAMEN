@@ -91,7 +91,6 @@ namespace Proyecto
 		{
 			if (comboBox1.SelectedIndex != -1) 
 			{ 
-				// Termina la ejecución de la aplicación 
 				Application.Exit();
 			}
 
