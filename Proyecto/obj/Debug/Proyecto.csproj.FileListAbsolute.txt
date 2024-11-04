@@ -80,3 +80,4 @@ C:\Users\dulce\EXAMEN\Proyecto\obj\Debug\Proyecto.MainForm.resources
 C:\Users\dulce\EXAMEN\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.Cache
 C:\Users\dulce\EXAMEN\Proyecto\obj\Debug\Proyecto.exe
 C:\Users\dulce\EXAMEN\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\CC2_PC17\EXAMEN\Proyecto\obj\Debug\Proyecto.ingles.resources

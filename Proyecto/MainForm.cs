@@ -86,5 +86,15 @@ namespace Proyecto
 				From10.Show();
 			}
 		}
+		
+		void ComboBox1SelectedIndexChanged(object sender, EventArgs e)
+		{
+			if (comboBox1.SelectedIndex != -1) 
+			{ 
+				// Termina la ejecución de la aplicación 
+				Application.Exit();
+			}
+
+		}
 	}
 }

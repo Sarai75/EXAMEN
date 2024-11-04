@@ -1,0 +1,16 @@
+C:\Users\CC2_PC17\EXAMEN\Matematicas\Matematicas\bin\Debug\Matematicas.exe
+C:\Users\CC2_PC17\EXAMEN\Matematicas\Matematicas\bin\Debug\Matematicas.pdb
+C:\Users\CC2_PC17\EXAMEN\Matematicas\Matematicas\obj\Debug\Matematicas.csprojResolveAssemblyReference.cache
+C:\Users\CC2_PC17\EXAMEN\Matematicas\Matematicas\obj\Debug\Matematicas.Aprobados.resources
+C:\Users\CC2_PC17\EXAMEN\Matematicas\Matematicas\obj\Debug\Matematicas.Desviacion.resources
+C:\Users\CC2_PC17\EXAMEN\Matematicas\Matematicas\obj\Debug\Matematicas.MainForm.resources
+C:\Users\CC2_PC17\EXAMEN\Matematicas\Matematicas\obj\Debug\Matematicas.Mayor.resources
+C:\Users\CC2_PC17\EXAMEN\Matematicas\Matematicas\obj\Debug\Matematicas.Media.resources
+C:\Users\CC2_PC17\EXAMEN\Matematicas\Matematicas\obj\Debug\Matematicas.Menor.resources
+C:\Users\CC2_PC17\EXAMEN\Matematicas\Matematicas\obj\Debug\Matematicas.Moda.resources
+C:\Users\CC2_PC17\EXAMEN\Matematicas\Matematicas\obj\Debug\Matematicas.PromApro.resources
+C:\Users\CC2_PC17\EXAMEN\Matematicas\Matematicas\obj\Debug\Matematicas.Promedio.resources
+C:\Users\CC2_PC17\EXAMEN\Matematicas\Matematicas\obj\Debug\Matematicas.Reprobados.resources
+C:\Users\CC2_PC17\EXAMEN\Matematicas\Matematicas\obj\Debug\Matematicas.csproj.GenerateResource.Cache
+C:\Users\CC2_PC17\EXAMEN\Matematicas\Matematicas\obj\Debug\Matematicas.exe
+C:\Users\CC2_PC17\EXAMEN\Matematicas\Matematicas\obj\Debug\Matematicas.pdb
