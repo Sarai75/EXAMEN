@@ -8,3 +8,13 @@ C:\Users\dulce\OneDrive\Documentos\SharpDevelop Projects\Fisica\Fisica\obj\Debug
 C:\Users\dulce\OneDrive\Documentos\SharpDevelop Projects\Fisica\Fisica\obj\Debug\Fisica.csproj.GenerateResource.Cache
 C:\Users\dulce\OneDrive\Documentos\SharpDevelop Projects\Fisica\Fisica\obj\Debug\Fisica.exe
 C:\Users\dulce\OneDrive\Documentos\SharpDevelop Projects\Fisica\Fisica\obj\Debug\Fisica.pdb
+C:\Users\CC2_PC17\EXAMEN\Fisica\Fisica\bin\Debug\Fisica.exe.config
+C:\Users\CC2_PC17\EXAMEN\Fisica\Fisica\bin\Debug\Fisica.exe
+C:\Users\CC2_PC17\EXAMEN\Fisica\Fisica\bin\Debug\Fisica.pdb
+C:\Users\CC2_PC17\EXAMEN\Fisica\Fisica\obj\Debug\Fisica.csprojResolveAssemblyReference.cache
+C:\Users\CC2_PC17\EXAMEN\Fisica\Fisica\obj\Debug\Fisica.links.resources
+C:\Users\CC2_PC17\EXAMEN\Fisica\Fisica\obj\Debug\Fisica.MainForm.resources
+C:\Users\CC2_PC17\EXAMEN\Fisica\Fisica\obj\Debug\Fisica.problemas.resources
+C:\Users\CC2_PC17\EXAMEN\Fisica\Fisica\obj\Debug\Fisica.csproj.GenerateResource.Cache
+C:\Users\CC2_PC17\EXAMEN\Fisica\Fisica\obj\Debug\Fisica.exe
+C:\Users\CC2_PC17\EXAMEN\Fisica\Fisica\obj\Debug\Fisica.pdb

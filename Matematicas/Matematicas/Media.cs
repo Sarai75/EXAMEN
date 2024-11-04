@@ -33,6 +33,9 @@ namespace Matematicas
 		{
 			string[] numbersInput = TxtNumeros.Text.Split(',');
 			int[] numbers = Array.ConvertAll(numbersInput, int.Parse);
+			if (numbers != null) {
+				
+			}
 			
 			if (numbers.Length != 6)
 			{

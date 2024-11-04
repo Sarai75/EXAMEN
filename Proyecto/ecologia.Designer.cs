@@ -101,7 +101,7 @@ namespace Proyecto
 			this.label5.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label5.Location = new System.Drawing.Point(29, 241);
 			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(431, 117);
+			this.label5.Size = new System.Drawing.Size(443, 117);
 			this.label5.TabIndex = 5;
 			this.label5.Text = "FACTORES BIOTICOS: Son aquellos factores ferefrente a los seres vivos\r\nProductore" +
 			"s: bacterias. algas, plantas\r\nConsumidores\r\nDesconponedores";
@@ -119,6 +119,7 @@ namespace Proyecto
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.ClientSize = new System.Drawing.Size(812, 573);
 			this.Controls.Add(this.label6);
 			this.Controls.Add(this.label5);
